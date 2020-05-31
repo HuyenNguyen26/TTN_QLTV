@@ -1,0 +1,227 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thư viện Trường đại học</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/frontend/menu_footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" crossorigin="anonymous">
+
+</head>
+
+<body style="background-color: #f2f2f2">
+    <div class="pre-head hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-lg-6 add-library-infor hidden-xs">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>(03) 732 23330</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fa fa-envelope"></i>
+                            <span>thuvienhts@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 col-lg-6 add-nav">
+                    <div class="pull-right">
+                        <ul class="list-unstyled list-inline pull-left">
+                            <li class="dropdown-user">
+                                <a href="#" class="login-img-circle">
+                                    <i class="fas fa-user-circle"> </i>
+                                    <span class="username">
+                                        Đăng nhập
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="container">
+            <div class="logo-container-lv">
+                <div id="logo-container" class="hidden-xs">
+                    <img class="img-fluid" src="~/Content/images/banner/Banner.png" alt="Cổng thông tin thư viện ">
+                </div>
+            </div>
+            <!-- <a href="#" class="mobi-toggler">
+                <i class=" fas fa-bars"></i>
+            </a> -->
+            <div class="main-navigation">
+                <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+                    <!-- Brand -->
+                    <a class="navbar-brand" href="#">
+                        <i class="fas fa-home"></i>
+                        Trang chủ
+                    </a>
+                    <!--
+                    Links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tra cứu</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Dịch vụ
+                            </a>
+                            <div class="dropdown-menu dr-mn">
+                                <a class="dropdown-item" href="#">Dịch vụ miễn phí</a>
+                                <a class="dropdown-item" href="#">Dịch vụ thu phí</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link"> Liên hệ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- <div class="">
+                  <div class="header-navigation font-transform-inherit" style="display: block;">
+                      <ul class="list-unstyled list-inline lv-0" id="MenuTop">
+                          <li class="accordion list-inline-item li-0">
+                              <div class="content">
+                                  <div class="contention">
+                                      <i class="fas fa-home"></i>
+                                      <a href="#">Trang chủ</a>
+                                  </div>
+                              </div>
+                          </li>
+                          <li class="accordion list-inline-item  li-1">
+                              <div class="content">
+                                  <div class="contention">
+
+                                      <a href="#">Giới thiệu</a>
+                                  </div>
+                              </div>
+                          </li>
+                          <li class="accordion list-inline-item  li-2">
+                              <div class="content">
+                                  <div class="contention">
+
+                                      <a href="#">Tra cứu</a>
+                                  </div>
+                              </div>
+                          </li>
+                          <li class="accordion list-inline-item li-3 haschild dropdown" style="white-space:normal">
+                              <div class="content">
+                                  <a data-toggle="dropdown" href="" class="dropdown-toggle">Dịch vụ</a>
+                              </div>
+                              <u class="dropdown-menu">
+                                  <li class="accordion li-5">
+                                      <div class="content">
+                                          <div class="contention">
+                                              <a href="#">Dịch vụ miễn phí</a>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li class="accordion li-6">
+                                      <div class="content">
+                                          <div class="contention">
+                                              <a href="#">Dịch vụ dịch vụ thu phí</a>
+                                          </div>
+                                      </div>
+                                  </li>
+                              </u>
+                          </li>
+                          <li class="accordion list-inline-item li-4">
+                              <div class="content">
+                                  <div class="contention">
+
+                                      <a href="#">Liên hệ</a>
+                                  </div>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+                </div> -->
+            </div>
+
+        </div>
+    </div>
+
+    @RenderBody();
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-lg-12 ">
+                    <p>
+                        <b>Thư viện Trường đại học HTS</b>
+                        <span style="display:none">hidden</span>
+                    </p>
+                    <p>
+                        <span>
+                            <strong>Địa chỉ liên hệ:</strong>
+                            Số 234 Hoàng Quốc Việt, Quận Bắc Từ Liêm, Thành phố Hà Nội.
+                        </span>
+                        <br>
+                        <span>
+                            <strong>Điện thoại:</strong>
+                            (03) 732 23330 (Phục vụ)
+                        </span>
+                        <br>
+                        <span>
+                            <strong>Email</strong>
+                            thuvienhts@gmail.com
+                            <span style="display: none;">hidden</span>
+                        </span>
+                    </p>
+                    <a href="">Trang chủ</a>  |
+                    <a href="">Góp ý</a>  |
+                    <a href="">Liên hệ.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        function dateToString() {
+            var currentdate = new Date();
+            var seconds = currentdate.getSeconds();
+            var minutes = currentdate.getMinutes();
+            var hour = currentdate.getHours();
+            var dateiweek = currentdate.getDay();
+            var dayarray = new Array("Chủ nhật", "Thứ hai", "Thứ ba", "Thứ tư", "Thứ năm", "Thứ sáu", "Thứ bảy");
+            if (seconds < 10) {
+                seconds = "0" + seconds;
+            }
+            if (minutes < 10) {
+                minutes = "0" + minutes;
+            }
+            if (hour < 10) {
+                hour = "0" + hour;
+            }
+            var datetime = dayarray[dateiweek] + ", Ngày " + currentdate.getDate() + " Tháng "
+                + (currentdate.getMonth() + 1) + " Năm "
+                + currentdate.getFullYear() + " "
+                + hour + ":"
+                + minutes + ":"
+                + seconds;
+            var divTime = document.getElementById("currentdate");
+            divTime.innerHTML = datetime;
+        }
+        setInterval(function () { dateToString(); }, 1800);
+    </script>
+
+</body>
+</html>

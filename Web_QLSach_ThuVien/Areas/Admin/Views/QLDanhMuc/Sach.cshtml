@@ -1,0 +1,147 @@
+﻿
+@{
+    ViewBag.Title = "Sach";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-8">
+    <div class="card">
+        <div class="card-header card-header-primary">
+            <h4 class="card-title">Tìm kiếm Sách</h4>
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <div class="form-group bmd-form-group">
+                            <label class="bmd-label-floating">Mã cuốn sách</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group bmd-form-group">
+                            <label class="bmd-label-floating">Tên sách</label>
+                            <input type="email" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary pull-right">Tìm kiếm</button>
+                <div class="clearfix"></div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="card">
+                    <div class="card-header card-header-primary">
+                        <h4 class="card-title ">Danh sách</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class=" text-primary">
+                                    <tr>
+                                        <th>
+                                            Mã sách
+                                        </th>
+                                        <th>
+                                            Tên sách
+                                        </th>
+                                        <th>
+                                            Thể loại
+                                        </th>
+                                        <th>
+                                            Ngôn ngữ
+                                        </th>
+                                        <th>
+                                            Tác giả
+                                        </th>
+                                        <th>
+                                            Năm xuất bản
+                                        </th>
+                                        <th>
+                                            Trạng thái
+                                        </th>
+                                        <th>
+                                            Thao tác
+                                        </th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr>
+                                        <th>
+                                            CS02
+                                        </th>
+                                        <th>
+                                            Chí phèo
+                                        </th>
+                                        <th>
+                                            Văn học
+                                        </th>
+                                        <th>
+                                            Tiếng Việt
+                                        </th>
+                                        <th>
+                                            Nam Cao
+                                        </th>
+                                        <th>
+                                            1998
+                                        </th>
+                                        <th>
+                                            đã mượn
+                                        </th>
+                                        <th>
+                                            <a href="javascript:;">Xửa</a>
+                                            |
+                                            <a href="javascript:;">Xóa</a>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            CS03
+                                        </th>
+                                        <th>
+                                            Tắt đèn
+                                        </th>
+                                        <th>
+                                            Văn học
+                                        </th>
+                                        <th>
+                                            Tiếng Việt
+                                        </th>
+                                        <th>
+                                            Ngô Tất Tố
+                                        </th>
+                                        <th>
+                                            2003
+                                        </th>
+                                        <th>
+                                            chưa mượn
+                                        </th>
+                                        <th>
+                                            <a href="javascript:;">Xửa</a>
+                                            |
+                                            <a href="javascript:;">Xóa</a>
+                                        </th>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

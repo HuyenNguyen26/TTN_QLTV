@@ -1,0 +1,189 @@
+﻿
+@{
+    ViewBag.Title = "ThanhVien";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-8">
+    <div class="card">
+        <div class="card-header card-header-primary">
+            <h4 class="card-title">Thêm user</h4>
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <div class="form-group bmd-form-group">
+                            <label class="bmd-label-floating">Username</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group bmd-form-group">
+                            <label class="bmd-label-floating">Email address</label>
+                            <input type="email" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group bmd-form-group">
+                            <label class="bmd-label-floating">Use name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group bmd-form-group">
+                            <label class="bmd-label-floating">Pass</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group bmd-form-group">
+                            <label class="bmd-label-floating">Phân quền</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>About Me</label>
+                            <div class="form-group bmd-form-group">
+                                <textarea class="form-control" rows="5"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary pull-right">Thêm</button>
+                <div class="clearfix"></div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="card">
+                    <div class="card-header card-header-primary">
+                        <h4 class="card-title ">Danh sách thành viên</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class=" text-primary">
+                                    <tr>
+                                        <th>
+                                            ID
+                                        </th>
+                                        <th>
+                                            Use name
+                                        </th>
+                                        <th>
+                                            Quản trị
+                                        </th>
+                                        <th>
+                                            Gmail
+                                        </th>
+
+                                        <th>
+                                            Quyền
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            1
+                                        </td>
+                                        <td>
+                                            Sơn
+                                        </td>
+                                        <td>
+                                            Có
+                                        </td>
+                                        <td>
+                                            sason1231999@gmail.com
+                                        </td>
+                                        <td class="text-primary">
+                                            Sửa/đăng/Xử lý phiếu mượn
+                                        </td>
+                                        <td><button type="button" class="btn btn-danger">Xóa</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                            Linh
+                                        </td>
+                                        <td>
+                                            Có
+                                        </td>
+                                        <td>
+                                            HaNgocLinh@gmail.com
+                                        </td>
+                                        <td class="text-primary">
+                                            Sửa/đăng/Xử lý phiếu mượn
+                                        </td>
+                                        <td><button type="button" class="btn btn-danger">Xóa</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>
+                                            admin
+                                        </td>
+                                        <td>
+                                            Toàn quyền
+                                        </td>
+                                        <td>
+                                            admin@gmail.com
+                                        </td>
+                                        <td class="text-primary">
+                                            Toàn quyền
+                                        </td>
+                                        <td><button type="button" class="btn btn-danger">Xóa</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            4
+                                        </td>
+                                        <td>
+                                            Loan
+                                        </td>
+                                        <td>
+                                            Có
+                                        </td>
+                                        <td>
+                                            LoanNguyen@gmail.com
+                                        </td>
+                                        <td class="text-primary">
+                                            Thêm/Sửa/Xoá
+                                        </td>
+                                        <td><button type="button" class="btn btn-danger">Xóa</button></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,158 @@
+﻿
+@{
+    ViewBag.Title = "BanDoc";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-8">
+    <div class="card">
+        <div class="card-header card-header-primary">
+            <h4 class="card-title">Thêm danh mục đầu sách</h4>
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <div class="form-group bmd-form-group">
+                            <label class="bmd-label-floating">Mã độc giả</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group bmd-form-group">
+                            <label class="bmd-label-floating">Tên</label>
+                            <input type="email" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group bmd-form-group">
+                        <label class="bmd-label-floating">Tên</label>
+                        <input type="email" class="form-control">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group bmd-form-group">
+                            <ul>
+                                <li>
+                                    Tình trạng:<select>
+                                        <option>Mới</option>
+                                        <option>Cũ</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary pull-right">Thêm</button>
+                <div class="clearfix"></div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="card">
+                    <div class="card-header card-header-primary">
+                        <h4 class="card-title ">Danh sách đầu sách</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class=" text-primary">
+                                    <tr>
+                                        <th>
+                                            Mã
+                                        </th>
+                                        <th>
+                                            Tên sách
+                                        </th>
+                                        <th>
+                                            Số lượng
+                                        </th>
+                                        <th>
+                                            Tình trạng
+                                        </th>
+
+                                        <th>
+                                            Thao tác
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            1
+                                        </td>
+                                        <td>
+                                            Toán chuyên đề
+                                        </td>
+                                        <td>
+                                            100
+                                        </td>
+                                        <td>
+                                            Mới
+                                        </td>
+                                        <td>
+                                            <a href="javascript:;">Sửa</a>
+                                            |
+                                            <a href="javascript:;">Xoá</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                            Giải tích 1
+                                        </td>
+                                        <td>
+                                            20
+                                        </td>
+                                        <td>
+                                            Cũ
+                                        </td>
+                                        <td>
+                                            <a href="javascript:;">Sửa</a>
+                                            |
+                                            <a href="javascript:;">Xoá</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>
+                                            Vật lý đại cương
+                                        </td>
+                                        <td>
+                                            15
+                                        </td>
+                                        <td>
+                                            Cũ
+                                        </td>
+                                        <td>
+                                            <a href="javascript:;">Sửa</a>
+                                            |
+                                            <a href="javascript:;">Xoá</a>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

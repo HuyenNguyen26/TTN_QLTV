@@ -1,0 +1,50 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Đăng ký tài khoản</title>
+    <!-- Import Bootstrap and JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+
+    </script>
+    <!-- My CSS and JQuery -->
+    <link href="~/Content/css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="~/Content/js/index.js"></script>
+</head>
+<body>
+    <div class="container-fluid bg">
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-sm-6 col-xs-12 row-container">
+                <form>
+                    <h1>ĐĂNG KÝ</h1>
+                    <div class="form-group">
+                        <label for="Ten">Tên</label>
+                        <input type="text" class="form-control" id="Ten" placeholder="Ten">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Nhập email">
+                        <p class="emailError"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="label">Mật khẩu</label>
+                        <input type="password" class="form-control" id="password" placeholder="Nhập mật khẩu">
+                        <p class="passwordError"></p>
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block my-3">Đăng ký</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
